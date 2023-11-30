@@ -1,0 +1,18 @@
+div.firstDiv {
+margin: auto;
+background-color: #4b4b4b;
+width: 75%;
+height: 100vh;
+}
+
+div.secondDiv {
+  margin: auto;
+  background-color: #9300c5;
+  height: 100px;
+}
+
+h1 {
+  font-size: 64px;
+  text-align: center;
+  vertical-align: text-top;
+}
