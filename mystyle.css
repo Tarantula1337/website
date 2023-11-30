@@ -1,18 +1,48 @@
-div.firstDiv {
-margin: auto;
-background-color: #4b4b4b;
-width: 75%;
-height: 100vh;
+.firstDiv {
+  margin: auto;
+  background-color: #4b4b4b;
+  width: 80%;
+  height: 100vh;
 }
 
-div.secondDiv {
+.secondDiv {
   margin: auto;
   background-color: #9300c5;
   height: 100px;
 }
 
-h1 {
+.verticalLDiv {
+  width: 10%;
+  background-color: #5b5b5b;
+  float: left;
+  height: 100vh;
+}
+
+.verticalRDiv {
+  width: 90%;
+  margin-left: 10%;
+  background-color: #4b4b4b;
+  height: 100vh;
+}
+
+.navButtons button {
+  display: block;
+  background-color: #0000FF;
+  cursor: pointer;
+  color: #FFFFFF;
+  margin: auto;
+  margin-top: 10px;
+  width: 75%;
+}
+
+.headerBar {
   font-size: 64px;
   text-align: center;
   vertical-align: text-top;
+}
+
+.mainTitle {
+  font-size: 32px;
+  text-align: center;
+  color: #d4af37;
 }
