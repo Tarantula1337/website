@@ -3,13 +3,14 @@
 }
 
 .maindiv {
-  width: 70%;
-  float: left;
-  margin-left: 15%;
+  max-width: 1080px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .status {
-  background-color: #666;
+  background-color: #9300c5;
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -25,8 +26,16 @@
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  background: #ccc;
+  background: #aaa;
   padding: 20px;
+}
+
+.nav button {
+  display: block;
+  cursor: pointer;
+  margin: auto;
+  width: 80%;
+  margin-top: 5px;
 }
 
 .article {
@@ -34,11 +43,13 @@
   -ms-flex: 9;
   flex: 9;
   padding: 10px;
-  background-color: #f1f1f1;
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer {
-  background-color: #777;
+  background-color: #9300c5;
   padding: 10px;
   text-align: center;
   color: white;
